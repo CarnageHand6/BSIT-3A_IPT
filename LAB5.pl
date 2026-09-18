@@ -2,6 +2,12 @@
 use strict;
 use warnings;
 
+# ==============================================================================
+# Program: LASTNAME_FruitsStore.pl
+# Description: Interactive Perl script demonstrating array operations,
+#              index lookup, conditional validation, and repeating loops.
+# ==============================================================================
+
 # Helper function to center-align text for the heading
 sub center_text {
     my ($text, $width) = @_;
@@ -14,7 +20,7 @@ sub center_text {
 
 # 1. Display Header Centered
 print "\n" . "=" x 60 . "\n";
-print center_text("GESOLGON Fruits Store", 60) . "\n";
+print center_text("LASTNAME Fruits Store", 60) . "\n";
 print "=" x 60 . "\n\n";
 
 # Initial Array of Fruits
