@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 # START
-my $system_password = "leanna";
+my $system_password = "gesolgon";
 
 print "Enter System Password: ";
 my $input_pass = <STDIN>;
@@ -16,9 +16,9 @@ if ($input_pass ne $system_password) {
 }
 
 my %password = (
-    'leanna' => '123',
-    'lean'   => '321',
-    'luna'   => '456',
+    'cabardo' => '123',
+    'gesolgon'   => '456',
+    'gesardo'   => '789',
 );
 
 # PROGRAM FLOW LOOP
